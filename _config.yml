@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Denis Ivanov"
 email: "denis@ivanovdenis.ru"
 description: "Denis Ivanov developement blog"
-baseurl: "/"
+baseurl: "/zeppelin"
 url: "http://denisivan0v.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
