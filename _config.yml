@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Denis Ivanov"
 email: "denis@ivanovdenis.ru"
 description: "Denis Ivanov developement blog"
-baseurl: "/zeppelin"
+baseurl: ""
 url: "http://denisivan0v.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
@@ -54,6 +54,7 @@ bottomNavigationLinks:
 rightNavigationButtons:
  - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
 
+
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "GDG DevFest <typeout> 2014"
@@ -63,7 +64,7 @@ typeoutFallback: "Season"
 heroButtons:
  - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
-
+ 
 # About Block
 aboutTitle: "About GDG DevFest"
 aboutBlock:
