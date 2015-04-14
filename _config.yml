@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "Denis Ivanov"
 email: "denis@ivanovdenis.ru"
-description: "Denis Ivanov developement blog"
+description: "Software Engineer's Blog"
 baseurl: "/zeppelin"
 url: "http://denisivan0v.github.io"
 permalink: "/blog/:title"
@@ -56,11 +56,11 @@ rightNavigationButtons:
 
 
 # Hero Block
-heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+heroImage: "road-split.jpg"
+heroTitle: "Software Engineering And Technologies"
+eventDate: "Denis Ivanov's Blog"
+typeoutTextValues: '"", ".NET", "Open Source", "DDD", "Backend"'
+typeoutFallback: "Technologies"
 heroButtons:
  - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
@@ -176,8 +176,8 @@ ticketsOffers:
 # Footer
 socialLinks:
  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+ - {link: "https://twitter.com/denisivanov", icon: "twitter"}
+ - {link: "https://facebook.com/ivanovdenis.ru", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
