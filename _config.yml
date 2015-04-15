@@ -94,12 +94,13 @@ partnersC4sponsorsButton: "Become a sponsor"
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Contact me"
-subscribeAction: "https://formkeep.com/f/cf2495bdf1e4"
+subscribeRedirectTitle: "Leave a message"
+subscribeAction: "https://github.com/denisivan0v/feedback"
 subscribeInfo: "I will try to answer as soon as possible. Stay tuned!"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+ - {link: "https://plus.google.com/113159328736283972698", icon: "google-plus"}
  - {link: "https://twitter.com/denisivanov", icon: "twitter"}
  - {link: "https://facebook.com/ivanovdenis.ru", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
@@ -107,16 +108,12 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
+   - {permalink: "/about/", text: "About me"}
    - {link: "https://developers.google.com", text: "Google Developers"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {link: "mailto:denis@ivanovdenis.ru", text: "denis[at]ivanovdenis[dot]ru"}
 
 # Blog
 blogTitle: "Latest posts"
