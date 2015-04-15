@@ -18,14 +18,6 @@ googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: ""
 siteVerification: ""
 
-# Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
-organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
-
 # Head
 metaKeywords: "denis, ivanov, blog, dotnet"
 twitterAccount: "@denisivanov"
@@ -33,19 +25,15 @@ socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
-# Documents
-c4pUrl: "http://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
-
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/about/", text: "About me"}
 bottomNavigationLinks:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://github.com/denisivan0v/feedback", text: "Ask me a question"}
 rightNavigationButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://github.com/denisivan0v/feedback", text: "Ask me a question"}
 
 # Hero Block
 heroImage: "road-split.jpg"
@@ -59,26 +47,12 @@ heroButtons:
 # About Block
 aboutTitle: "Who Am I?"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
-
-# Statistic Block
-statisticBlockImage: "statistic.jpg"
-statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {title: "Software dev", image: "dotnet.jpg", text: "Usually I am using .NET to build software" }
+ - {title: "Subaru fan", image: "subaru-legacy.jpg", text: "Love that cars. Have one like that. They are totally amazing!" }
+ - {title: "Working at 2GIS", image: "2gis.png", text: "Designing and developing one of company's system. Also running a team there." }
 
 # Latest News Block
 latestNewsTitle: "Latest posts"
-
-# Rockstar Speakers Block
-rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
-rockstarSpeakersButtonText: "See all speakers"
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -109,7 +83,6 @@ footerBlocks:
   title: "Links"
   links:
    - {permalink: "/about/", text: "About me"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
  -
   title: "Contacts"
   links:
