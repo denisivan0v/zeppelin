@@ -3,6 +3,7 @@ layout: post
 title:  "Привет!"
 date:   2015-04-15 15:00:00
 isStaticPost: false
+categories: [personal blog начало dotnet rx reactiveui]
 ---
 
 Этим постом я хочу положить начало написанию не только кода, но и всевозможных текстов. Хотя вставки кода в этих текстах все равно будут.
