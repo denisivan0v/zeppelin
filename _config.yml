@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "Denis Ivanov"
 email: "denis@ivanovdenis.ru"
-baseurl: "/"
+baseurl: "//"
 url: "http://dev.ivanovdenis.ru"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
