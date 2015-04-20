@@ -19,7 +19,7 @@ googleAnalyticsSiteUrl: ""
 siteVerification: ""
 
 # Head
-metaKeywords: "denis, ivanov, blog, dotnet"
+metaKeywords: "denis, ivanov, personal, blog, dotnet, ddd, domain, driven, design, reactive, cqrs, 2gis, subaru, .net, software, technologies"
 twitterAccount: "@denisivanov"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -31,15 +31,15 @@ navigationLinks:
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/about/", text: "About me"}
 bottomNavigationLinks:
- - {link: "https://github.com/denisivan0v/feedback", text: "Ask me a question"}
+ - {link: "https://github.com/denisivan0v/feedback/issues/new", text: "Ask me a question"}
 rightNavigationButtons:
- - {link: "https://github.com/denisivan0v/feedback", text: "Ask me a question"}
+ - {link: "https://github.com/denisivan0v/feedback/issues/new", text: "Ask me a question"}
 
 # Hero Block
 heroImage: "road-split.jpg"
 heroTitle: "Software Engineering And <typeout>"
 eventDate: "Denis Ivanov's Blog"
-typeoutTextValues: '"", ".NET", "Open Source", "DDD", "Rx"'
+typeoutTextValues: '"Technologies", ".NET", "Open Source", "DDD", "Rx"'
 typeoutFallback: "Technologies"
 heroButtons:
   - {permalink: "/#latest-news", text: "Continue reading"}
@@ -48,7 +48,7 @@ heroButtons:
 aboutTitle: "Who Am I?"
 aboutBlock:
  - {title: "Software dev", image: "dotnet.jpg", text: "Usually I am using .NET to build software" }
- - {title: "Subaru fan", image: "subaru-legacy.jpg", text: "Love that cars. Have one like that. They are totally amazing!" }
+ - {title: "Subaru fan", image: "subaru-legacy.jpg", text: "Love that cars. Have one like this. They are totally amazing!" }
  - {title: "Working at 2GIS", image: "2gis.png", text: "Designing and developing one of company's system. Also running a team there." }
 
 # Latest News Block
@@ -69,7 +69,7 @@ partnersC4sponsorsButton: "Become a sponsor"
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Contact me"
 subscribeRedirectTitle: "Leave a message"
-subscribeAction: "https://github.com/denisivan0v/feedback"
+subscribeAction: "https://github.com/denisivan0v/feedback/issues/new"
 subscribeInfo: "I will try to answer as soon as possible. Stay tuned!"
 
 # Footer
