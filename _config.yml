@@ -17,7 +17,7 @@ url: ""
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-62226812-1"
 googleAnalyticsSiteUrl: "http://dev.ivanovdenis.ru/"
-siteVerification: "google-site-verification=c_jkJE-nFMvvTST5hjKDsL-RIrJPcLiRVJ0osPju76Y"
+siteVerification: "RwWVPu3LqA08EEymfN9D3UNRGLqV7nxI-JT0ebLMKt8"
 
 # Head
 metaKeywords: "denis, ivanov, personal, blog, dotnet, ddd, domain, driven, design, reactive, cqrs, 2gis, subaru, .net, software, technologies"
