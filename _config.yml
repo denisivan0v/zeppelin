@@ -15,8 +15,8 @@ email: "denis@ivanovdenis.ru"
 baseurl: ""
 url: ""
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: ""
-googleAnalyticsSiteUrl: ""
+googleAnalyticsTrackingId: "UA-62226812-1"
+googleAnalyticsSiteUrl: "http://dev.ivanovdenis.ru/"
 siteVerification: ""
 
 # Head
