@@ -2,6 +2,7 @@
 gems:
 - jekyll-sitemap
 safe: false
+highlighter: pygments
 
 # Build Settings
 markdown: kramdown
