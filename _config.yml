@@ -16,7 +16,7 @@ baseurl: ""
 url: ""
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-62226812-1"
-googleAnalyticsSiteUrl: "http://dev.ivanovdenis.ru/"
+googleAnalyticsSiteUrl: "auto"
 siteVerification: "RwWVPu3LqA08EEymfN9D3UNRGLqV7nxI-JT0ebLMKt8"
 
 # Head
