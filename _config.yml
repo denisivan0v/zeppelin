@@ -2,10 +2,11 @@
 gems:
 - jekyll-sitemap
 safe: false
-highlighter: pygments
 
 # Build Settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 

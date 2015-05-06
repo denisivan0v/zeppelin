@@ -46,29 +46,29 @@ categories: [reactive manifesto observer rx]
 
 Пусть у нас есть абстракция `IObserver` (он же subcriber), которая выполняет некоторое действие `Update` - обновление своего состояния.
 
-{% highlight c# %}
+```csharp
 interface IObserver 
 {
     void Update(string state);
 }
-{% endhighlight %}
+```
 
 По сути, это функциональная абстракция, которую вызывающий код должен использовать для выполнения действия. Пока все просто.
 
 Дальше, пусть есть еще одна абстракция `IObservable` (он же publisher), которая позволяет что-то делать с `IObserver`, а именно - добавлять/удалять и нотифицировать.
 
-{% highlight c# %}
+```c#
 interface IObservable
 {
     void AddObserver(IObserver observer);
     void RemoveObserver(IObserver observer);
     void NotifyObservers(string s);
 }
-{% endhighlight %}
+```
 
 Имея эти абстракции, можем написать такой псевдокод:
 
-{% highlight c# %}
+```c#
 IObserver observer1;
 IObserver observer2;
 
@@ -78,7 +78,7 @@ observable.AddObserver(observer1);
 observable.AddObserver(observer2);
 
 observable.NotifyObservers("some event");
-{% endhighlight %}
+```
 
 Тут мы имеем публикатора observable и двух его подписчиков (наблюдателей) observer1 и observer2. Публикатор для нотификации подписчиков вызывает у них метод `Update`. Опять же все просто.
 
@@ -106,4 +106,4 @@ observable.NotifyObservers("some event");
 
 P.S. Сколько не пытался добавить [риббон](http://www.reactivemanifesto.org/ribbons), так и не смог подружить его с общим дизайном. Вместо этого вот: **we are reactive!**
 
-P.P.S. Aren't we :question:
+P.P.S. Aren't we?
