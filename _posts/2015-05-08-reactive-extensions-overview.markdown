@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Reactive Extensions overview"
-date:   2015-05-08 13:00:00
+title: "Reactive Extensions overview"
+date: 2015-05-08 13:00:00
 isStaticPost: false
 categories: [reactive extensions observable subject rx]
 ---
@@ -215,7 +215,7 @@ Stay tuned!
 [ddd]: http://en.wikipedia.org/wiki/Domain-driven_design
 [iot]: http://en.wikipedia.org/wiki/Internet_of_Things
 [cep]: http://en.wikipedia.org/wiki/Complex_event_processing
-[the-basics]: {% post_url 2015-04-21-the-basics-of-the-reactive %}
+[the-basics]: /blog/the-basics-of-the-reactive
 [inside-rx]: http://channel9.msdn.com/Shows/Going+Deep/Expert-to-Expert-Brian-Beckman-and-Erik-Meijer-Inside-the-NET-Reactive-Framework-Rx
 [subject]: http://msdn.microsoft.com/en-us/library/hh229173(v=VS.103).aspx
 [replay-subject]: http://msdn.microsoft.com/en-us/library/hh211810(v=VS.103).aspx
