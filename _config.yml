@@ -1,7 +1,6 @@
 # Plugins
-gems:
-- jekyll-sitemap
-safe: false
+gems: [jekyll-sitemap]
+safe: true
 
 # Build Settings
 markdown: redcarpet
