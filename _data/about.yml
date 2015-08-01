@@ -1,0 +1,77 @@
+name: "Denis Ivanov"
+cell: "+7-923-228-06-85?can_text=yes"
+gihub_account: "denisivan0v"
+objective: "To inform possible employers and other interested parties about my skills and experience in certain areas as well as about my willingness to consider wide range of job offers and inquiries."
+
+work_experience:
+ - 
+  dates: "08/2013 — Current"
+  company : "CodeFest conference"
+  company_url: "http://codefest.ru/" 
+  position: "Backend section organizer"
+ -
+  dates: "01/2012 — Current"
+  company : "2GIS"
+  company_url: "http://2gis.ru/" 
+  position: "Head of software development group"
+  project: { 
+    title: "Distributed enterprise system.",
+    description: "Composite application with many services + web clients.",
+    principles: "DDD for design and implementation and many technics for testing",
+    technilogies_and_dependencies: "WCF, ASP.NET MVC, ExtJS, EF, Unity, Quartz.NET, TPL Dataflow, log4net, SQL Server, ElasticSearch, Service Bus for Windows Server, AppFabric Cache"
+  }
+  responsibilities: 
+   - "system architecture evolution"
+   - "components design"
+   - "critical components implementation"
+   - "performance improvement"
+   - "development team leadership"
+   - "code and design review"
+   - "build and deploy process coordination"
+   - "business requirements verification"
+   - "release planning"
+ -
+  dates: "05/2010 — 12/2011"
+  company : "2GIS"
+  company_url: "http://2gis.ru/" 
+  position: "Senior Software Development Engineer"
+  project: { 
+	title: "Distributed enterprise system.",
+	  description: "Composite application with many services + web clients.",
+  }
+  responsibilities: 
+   - "participation in high level components design"
+   - "core and business logic components implementation"
+   - performance improvement and code profiling
+   - "participation in development and testing process improvement"
+   - "participation in business requirements adaptation"
+   - "code review and devs mentoring"
+ -
+  dates: "02/2006 – 04/2010"
+  company : "Trofimuk Institute of petroleum geology and geophysics RAS SB"
+  company_url: "http://www.ipgg.nsc.ru" 
+  position: "Software Development Engineer"
+  project: { 
+	title: "SharePoint Server 2003, 2007, 2010 as a platform",
+  }
+  achievements: 
+   - "deploying SharePoint Portal Server 2003 as portal for an internal projects and as external web site"
+   - "performing migration to SharePoint Server 2007 (+carried out about ops activities)"
+   - "performing visual re-design of the corporative web site (SharePoint 2007) in accordance with corporative standards"
+   - "developing webpart which allows organization`s employees to update their personal information in HR department`s knowlege base"
+   - "designing and developing corporative social network web application using ASP.NET MVC"
+   - "developing solution for SharePoint Server that performs total visual redesign of the SharePoint Server in runtime"
+   - "developing solution for SharePoint Server that allows posting comments and file attachments to SharePoint publishing pages"
+   - "developing solution for SharePoint Server to support publicating of an scientific articles"
+   - "developing a enterprise phonebook solution upon SharePoint"
+  main_keywords: "master page, content page, publishing page, custom fields, content type, web part, user control, web server control, feature receiver, item event receiver"
+
+education: { dates: "2001 – 2007", university: "Novosibirsk State Technical University. Master of Applied Mathematics and Computer Science" }
+
+certifications: 
+ - { text: "MCSD: Web apps", link: "http://www.microsoft.com/learning/en-us/mcsd-web-apps-certification.aspx", image: "MCSD_WebApp_Blk.png" }
+ - { text: "MCPD: Silverlight Developer 4", link: "http://www.microsoft.com/learning/en/us/certification/mcpd.aspx#item-ID0EAAAAAAAAAAAAAABAAAAAAABA", image: "MCPD-SilverlightDev4-logo-BW.png" }
+ - { text: "MCPD: Web Developer 4", link: "http://www.microsoft.com/learning/en/us/certification/mcpd.aspx#item-ID0EAAAAAABAAFAAAABAAAAAAABA", image: "MCPD-WebDev4-logo-BW.png" }
+ - { text: "MCPD: Windows Developer 4", link: "http://www.microsoft.com/learning/en/us/certification/mcpd.aspx#item-ID0EAAAAAACAAFAAAABAAAAAAABA", image: "MCPD-WindowsDev4-logo-BW.png" }
+certification_description: "See the <a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate'>full list</a> of certifications and passed exams (<a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate'>https://mcp.microsoft.com/Anonymous/Transcript/Validate</a>)<br><br>Transcript ID: 861196<br>Access Code: DenisIvanov"
+
