@@ -49,8 +49,8 @@ heroButtons:
 aboutTitle: "Who Am I?"
 aboutBlock:
  - {title: "Software dev", image: "dotnet.jpg", text: "Usually I am using .NET to build software" }
+ - {title: "Working for 2GIS", image: "2gis.png", text: "Designing and developing one of the company's system. Also running a team there." }
  - {title: "Subaru fan", image: "subaru-legacy.jpg", text: "Love that cars. Have one like this. They are totally amazing!" }
- - {title: "Working at 2GIS", image: "2gis.png", text: "Designing and developing one of company's system. Also running a team there." }
 
 # Latest News Block
 latestNewsTitle: "Latest posts"
