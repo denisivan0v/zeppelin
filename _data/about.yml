@@ -17,7 +17,7 @@ work_experience:
   project: { 
     title: "Distributed enterprise system.",
     description: "Composite application with many services + web clients.",
-    principles: "DDD for design and implementation and many technics for testing",
+    principles: "DDD for design and implementation and many techniques for testing",
     technilogies_and_dependencies: "WCF, ASP.NET MVC, ExtJS, EF, Unity, Quartz.NET, TPL Dataflow, log4net, SQL Server, ElasticSearch, Service Bus for Windows Server, AppFabric Cache"
   }
   responsibilities: 
@@ -36,7 +36,7 @@ work_experience:
   company_url: "http://2gis.ru/" 
   position: "Senior Software Development Engineer"
   project: { 
-	title: "Distributed enterprise system.",
+	  title: "Distributed enterprise system.",
 	  description: "Composite application with many services + web clients.",
   }
   responsibilities: 
@@ -52,7 +52,7 @@ work_experience:
   company_url: "http://www.ipgg.nsc.ru" 
   position: "Software Development Engineer"
   project: { 
-	title: "SharePoint Server 2003, 2007, 2010 as a platform",
+	  title: "SharePoint Server 2003, 2007, 2010 as a platform",
   }
   achievements: 
    - "deploying SharePoint Portal Server 2003 as portal for an internal projects and as external web site"
