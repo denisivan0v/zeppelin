@@ -1,6 +1,6 @@
 # Plugins
 gems: [jekyll-sitemap]
-safe: true
+safe: false
 
 # Build Settings
 markdown: redcarpet
@@ -12,8 +12,8 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "Denis Ivanov"
 email: "denis@ivanovdenis.ru"
-baseurl: ""
-url: ""
+github:
+  url: http://dev.ivanovdenis.ru
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-62226812-1"
 googleAnalyticsSiteUrl: "auto"
