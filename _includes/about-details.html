@@ -1,92 +1,106 @@
 <!-- About Section -->
 <section id="about-details">
     <div class="content-wrapper">
-        <div class="col-md-8 col-md-offset-2 text-left">
-            <p>
-                <strong>{{ site.data.about.name }}</strong><br>
-                {{ site.data.about.cell }}<br>
-                <a href="https://github.com/{{ site.data.about.gihub_account }}">https://github.com/{{ site.data.about.gihub_account }}</a><br>
-            </p>
-
-        	<h4>Objective</h4>
-            <p>{{ site.data.about.objective }}</p>
-
-            <h4>Work experience</h4>
-            {% for experience in site.data.about.work_experience %}
-            <p>
-                <strong>{{ experience.dates }}: </strong>
-                <a href="{{ experience.company_url }}">{{ experience.company }}</a>,
-                {{ experience.position }}
-            </p>
-            {% if experience.project %}
-            <p>
-                {{ experience.project.title }}<br>
-                {% if experience.project.description %}
-                {{ experience.project.description }}
-                {% endif %}
-                {% if experience.project.principles && experience.project.technilogies_and_dependencies %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xs-8 col-md-offset-1 text-left">
                 <p>
-                    Principles: {{ experience.project.principles }}<br>
-                    Technilogies and dependencies: {{ experience.project.technilogies_and_dependencies }}
+                    <strong>{{ site.data.about.name }}</strong><br>
+                    {{ site.data.about.description }}<br>
+                    <br>
+                    {{ site.data.about.cell }}<br>
+                    <a href="https://github.com/{{ site.data.about.gihub_account }}">https://github.com/{{ site.data.about.gihub_account }}</a><br>
+                </p>
+            </div>
+            <div class="col-md-1 col-xs-1">
+                <div class="animated hiding" data-animation="fadeInDown" data-delay="1000">
+                    <img src="{{ site.baseurl }}/img/about-section/{{ site.data.about.image }}" alt="{{ site.data.about.description }}">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-left">
+            	<h4>Objective</h4>
+                <p>{{ site.data.about.objective }}</p>
+
+                <h4>Work experience</h4>
+                {% for experience in site.data.about.work_experience %}
+                <p>
+                    <strong>{{ experience.dates }}: </strong>
+                    <a href="{{ experience.company_url }}">{{ experience.company }}</a>,
+                    {{ experience.position }}
+                </p>
+                {% if experience.project %}
+                <p>
+                    {{ experience.project.title }}<br>
+                    {% if experience.project.description %}
+                    {{ experience.project.description }}
+                    {% endif %}
+                    {% if experience.project.principles && experience.project.technilogies_and_dependencies %}
+                    <p>
+                        Principles: {{ experience.project.principles }}<br>
+                        Technilogies and dependencies: {{ experience.project.technilogies_and_dependencies }}
+                    </p>
+                    {% endif %}
                 </p>
                 {% endif %}
-            </p>
-            {% endif %}
-            {% if experience.responsibilities %}
-            <p>
-                Resposible for:
-                <ul>
-                {% for responsibility in experience.responsibilities %}
-                    <li>{{ responsibility }}</li>
+                {% if experience.responsibilities %}
+                <p>
+                    Resposible for:
+                    <ul>
+                    {% for responsibility in experience.responsibilities %}
+                        <li>{{ responsibility }}</li>
+                    {% endfor %}
+                    </ul>
+                </p>
+                {% endif %}
+                {% if experience.achievements %}
+                <p>
+                    Achievements:
+                    <ul>
+                    {% for achievement in experience.achievements %}
+                        <li>{{ achievement }}</li>
+                    {% endfor %}
+                    </ul>
+                </p>
+                {% endif %}
+                {% if experience.main_keywords %}
+                <p>Main keywords: {{ experience.main_keywords }}</p>
+                {% endif %}
                 {% endfor %}
-                </ul>
-            </p>
-            {% endif %}
-            {% if experience.achievements %}
-            <p>
-                Achievements:
-                <ul>
-                {% for achievement in experience.achievements %}
-                    <li>{{ achievement }}</li>
-                {% endfor %}
-                </ul>
-            </p>
-            {% endif %}
-            {% if experience.main_keywords %}
-            <p>Main keywords: {{ experience.main_keywords }}</p>
-            {% endif %}
-            {% endfor %}
 
-            <h4>Education</h4>
-            <p>
-                <strong>{{ site.data.about.education.dates }}: </strong>
-                {{ site.data.about.education.university }}
-            </p>
-            <h4>Certifications</h4>
-            <ul>
-            {% for certification in site.data.about.certifications %}
-                <li><a href="{{ certification.link }}">{{ certification.text }}</a></li>
-            {% endfor %}
-            </ul>
-            <div class="row about-details">
-                {% assign animationDelay = 0 %}
+                <h4>Education</h4>
+                <p>
+                    <strong>{{ site.data.about.education.dates }}: </strong>
+                    {{ site.data.about.education.university }}
+                </p>
+                <h4>Certifications</h4>
+                <ul>
                 {% for certification in site.data.about.certifications %}
-                {% assign colWidth = 12 | divided_by: forloop.length %}
-                <div class="col-md-{{ colWidth }} col-xs-6">  
-                    <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                        <a href="{{ certification.link }}">
-                            <img src="{{ site.baseurl }}/img/about-section/{{ certification.image }}" width="128" alt="{{ about.title }}">
-                        </a>
-                    </div>
-                </div>
-                {% assign animationDelay = animationDelay | plus:500 %}
-                {% assign check = forloop.index | modulo:2 %}
-                {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
+                    <li><a href="{{ certification.link }}">{{ certification.text }}</a></li>
                 {% endfor %}
+                </ul>
+                <div class="row about-details">
+                    {% assign animationDelay = 0 %}
+                    {% for certification in site.data.about.certifications %}
+                    {% assign colWidth = 12 | divided_by: forloop.length %}
+                    <div class="col-md-{{ colWidth }} col-xs-6">  
+                        <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                            <a href="{{ certification.link }}">
+                                <img src="{{ site.baseurl }}/img/about-section/{{ certification.image }}" width="128" alt="{{ about.title }}">
+                            </a>
+                        </div>
+                    </div>
+                    {% assign animationDelay = animationDelay | plus:500 %}
+                    {% assign check = forloop.index | modulo:2 %}
+                    {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
+                    {% endfor %}
+                </div>
+                <br>
+                <p>{{ site.data.about.certification_description }}</p>
             </div>
-            <br>
-            <p>{{ site.data.about.certification_description }}</p>
         </div>
+    </div>
     </div>
 </section>
 <!-- End About Section -->
