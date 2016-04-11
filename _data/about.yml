@@ -7,6 +7,16 @@ objective: "To inform possible employers and other interested parties about my s
 
 work_experience:
  - 
+  dates: "11/2015 — Current"
+  company : "NuClear River, open source project"
+  company_url: "https://github.com/2gis/nuclear-river/" 
+  position: "Maintainer"
+ - 
+  dates: "01/2015 — Current"
+  company : "NuClear Aggregates Layer, open source project"
+  company_url: "https://github.com/2gis/nuclear-aggregates-layer/" 
+  position: "Maintainer"
+ - 
   dates: "08/2013 — Current"
   company : "CodeFest conference"
   company_url: "http://codefest.ru/" 
