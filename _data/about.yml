@@ -39,17 +39,23 @@ work_experience:
   company : "NuClear River"
   company_description: "open source project"
   company_url: "https://github.com/2gis/nuclear-river/" 
-  position: "Maintainer"
+  position: "Maintainer and Contributer"
   project: { 
     title: "Customizable platform to build Read Models in sense of CQRS",
-    description: "Reference implementation is here: <a href='https://github.com/2gis/nuclear-river-customer-intelligence'>https://github.com/2gis/nuclear-river-customer-intelligence</a>. It's an application for searching potential customers. It's running internally at 2GIS."
+    description: "Reference implementation is here: <a href='https://github.com/2gis/nuclear-river-customer-intelligence' target='_blank'>https://github.com/2gis/nuclear-river-customer-intelligence</a>. It's an application for searching potential customers. It's running internally at 2GIS."
   }
+ - 
+  dates: "03/2015 — Current"
+  company : "CodeFest Conference App for Windows"
+  company_description: "open source project"
+  company_url: "https://github.com/denisivan0v/codefest-win-app" 
+  position: "Author and Maintainer"
  - 
   dates: "01/2015 — Current"
   company : "NuClear Aggregates Layer"
   company_description: "open source project"
   company_url: "https://github.com/2gis/nuclear-aggregates-layer/" 
-  position: "Maintainer"
+  position: "Author and Maintainer"
   project: { 
     title: "Core libraries with separate read and write stacks implementation and aggregate (in DDD style) services abstractions"
   }
@@ -86,7 +92,7 @@ work_experience:
    - "implemented ability to run the same binaries in different operation modes - different business logic for different countries"
    - "implemented ability to store different business entities using the same data model" 
    - "added support for business case implementation using existing and newly created domain services that hold their own business logic invariants, now it allows to read code and understand business requirements easily"
-   - "created real-time integration service relying on domain events (using <a href='https://github.com/2gis/nuclear-river/'>NuClear River</a> libraries)"
+   - "created real-time integration service relying on domain events (using <a href='https://github.com/2gis/nuclear-river/' target='_blank'>NuClear River</a> libraries)"
  -
   dates: "05/2010 — 12/2011"
   company : "2GIS"
@@ -132,5 +138,5 @@ certifications:
  - { text: "MCPD: Silverlight Developer 4", link: "http://www.microsoft.com/learning/en/us/certification/mcpd.aspx#item-ID0EAAAAAAAAAAAAAABAAAAAAABA", image: "MCPD-SilverlightDev4-logo-BW.png" }
  - { text: "MCPD: Web Developer 4", link: "http://www.microsoft.com/learning/en/us/certification/mcpd.aspx#item-ID0EAAAAAABAAFAAAABAAAAAAABA", image: "MCPD-WebDev4-logo-BW.png" }
  - { text: "MCPD: Windows Developer 4", link: "http://www.microsoft.com/learning/en/us/certification/mcpd.aspx#item-ID0EAAAAAACAAFAAAABAAAAAAABA", image: "MCPD-WindowsDev4-logo-BW.png" }
-certification_description: "See the <a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate'>full list</a> of certifications and passed exams (<a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate'>https://mcp.microsoft.com/Anonymous/Transcript/Validate</a>)<br><br>Transcript ID: 861196<br>Access Code: DenisIvanov"
+certification_description: "See the <a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate' target='_blank'>full list</a> of certifications and passed exams (<a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate' target='_blank'>https://mcp.microsoft.com/Anonymous/Transcript/Validate</a>)<br><br>Transcript ID: 861196<br>Access Code: DenisIvanov"
 
