@@ -10,7 +10,7 @@ work_experience:
  - 
   dates: "05/2016"
   company : "Microsoft DevCon, Moscow"
-  company_description: "develpers conference"
+  company_description: "developers conference"
   company_url: "https://channel9.msdn.com/Events/DevCon/DevCon-2016/Simple-and-scalable-backend" 
   position: "Speaker, in Russian"
   project: { 
