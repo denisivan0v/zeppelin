@@ -81,7 +81,7 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {permalink: "/about/", text: "About me"}
+   - {permalink: "/about/", text: "About"}
  -
   title: "Contacts"
   links:
