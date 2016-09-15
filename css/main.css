@@ -3164,6 +3164,17 @@ nav li a:hover {
 .about-details p {
     margin-top: 10px
 }
+.about-experience-header {
+    margin-top: 20px;
+    font-size: 15px
+}
+.about-experience-header .company {
+    padding: 0;
+    font-weight: 500
+}
+.about-experience-header .description {
+    color: #858585;
+}
 .statistic .stat {
     font-size: 100px;
     color: #03a9f4

@@ -1,81 +1,128 @@
 name: "Denis Ivanov"
 description: "Microsoft MVP in .NET"
 image: "microsoft-mvp.gif"
+image_url: "https://mvp.microsoft.com/en-us/PublicProfile/5001663"
 cell: "+7-923-228-06-85?can_text=yes"
-gihub_account: "denisivan0v"
+github_account: "denisivan0v"
 objective: "To inform possible employers and other interested parties about my skills and experience in certain areas as well as about my willingness to consider wide range of job offers and inquiries."
 
 work_experience:
  - 
+  dates: "05/2016"
+  company : "Microsoft DevCon, Moscow"
+  company_description: "develpers conference"
+  company_url: "https://channel9.msdn.com/Events/DevCon/DevCon-2016/Simple-and-scalable-backend" 
+  position: "Speaker, in Russian"
+  project: { 
+    title: "Topic: Building simple and scalable backends"
+  }
+ - 
+  dates: "03/2016"
+  company : "CodeFest, Novosibirsk"
+  company_description: "developers conference"
+  company_url: "http://2016.codefest.ru/lecture/1098" 
+  position: "Speaker, in Russian"
+  project: { 
+    title: "Topic: Building Read Models using event streams"
+  }
+ - 
+  dates: "03/2016"
+  company : "CEE Community Open Days 2016, Prague"
+  company_description: "conference"
+  company_url: "https://channel9.msdn.com/Blogs/MVP-VisualStudio-Dev/Building-Read-Models-using-event-streams" 
+  position: "Speaker, in English"
+  project: { 
+    title: "Topic: Building Read Models using event streams"
+  }
+ - 
   dates: "11/2015 — Current"
-  company : "NuClear River, open source project"
+  company : "NuClear River"
+  company_description: "open source project"
   company_url: "https://github.com/2gis/nuclear-river/" 
   position: "Maintainer"
+  project: { 
+    title: "Customizable platform to build Read Models in sense of CQRS",
+    description: "Reference implementation is here: <a href='https://github.com/2gis/nuclear-river-customer-intelligence'>https://github.com/2gis/nuclear-river-customer-intelligence</a>. It's an application for searching potential customers. It's running internally at 2GIS."
+  }
  - 
   dates: "01/2015 — Current"
-  company : "NuClear Aggregates Layer, open source project"
+  company : "NuClear Aggregates Layer"
+  company_description: "open source project"
   company_url: "https://github.com/2gis/nuclear-aggregates-layer/" 
   position: "Maintainer"
+  project: { 
+    title: "Core libraries with separate read and write stacks implementation and aggregate (in DDD style) services abstractions"
+  }
  - 
   dates: "08/2013 — Current"
-  company : "CodeFest conference"
+  company : "CodeFest"
+  company_description: "developers conference"
   company_url: "http://codefest.ru/" 
-  position: "Backend section organizer"
+  position: "Backend track maintainer"
  -
   dates: "01/2012 — Current"
   company : "2GIS"
+  company_description: "local search company"
   company_url: "http://2gis.ru/" 
   position: "Head of software development group"
   project: { 
-    title: "Distributed enterprise system.",
-    description: "Composite application with many services + web clients.",
-    principles: "DDD for design and implementation and many techniques for testing",
-    technilogies_and_dependencies: "WCF, ASP.NET MVC, ExtJS, EF, Unity, Quartz.NET, TPL Dataflow, log4net, SQL Server, ElasticSearch, Service Bus for Windows Server, AppFabric Cache"
+    title: "Sales system development project.",
+    description: "Composite application consists of customer relationship management (CRM) module, sales module, adverstisement content management module and integration module.<br/>The application is used by 2GIS's sales persons (~1000-1200) in Russia, Cyprus, Czech Republic, United Arab Emirates, Chile, Ukraine, Kazakhstan and Kyrgyzstan.<br/>The application was build from the scratch. Many libraries we've built for it now at <a href='http://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a> and some of them are opensourced.",
+    principles: "Domain-Driven Design is heavly used in this project to solve complex business tasks without building complex and over-engineered architecture",
+    technilogies_and_dependencies: "WCF, ASP.NET MVC, SQL Server, EF, Unity (DI), Quartz.NET,  ElasticSearch, Service Bus for Windows Server, ExtJS, Javascript"
   }
   responsibilities: 
-   - "system architecture evolution"
+   - "application architecture development"
    - "components design"
    - "critical components implementation"
    - "performance improvement"
    - "development team leadership"
-   - "code and design review"
-   - "build and deploy process coordination"
+   - "design and code review"
+   - "CI process coordination"
    - "business requirements verification"
    - "release planning"
+  achievements:
+   - "engineered application topology as web app and number of WCF services with their own responsibilities"
+   - "implemented ability to run the same binaries in different operation modes - different business logic for different countries"
+   - "implemented ability to store different business entities using the same data model" 
+   - "added support for business case implementation using existing and newly created domain services that hold their own business logic invariants, now it allows to read code and understand business requirements easily"
+   - "created real-time integration service relying on domain events (using <a href='https://github.com/2gis/nuclear-river/'>NuClear River</a> libraries)"
  -
   dates: "05/2010 — 12/2011"
   company : "2GIS"
+  company_description: "local search company"
   company_url: "http://2gis.ru/" 
   position: "Senior Software Development Engineer"
   project: { 
-	  title: "Distributed enterprise system.",
-	  description: "Composite application with many services + web clients.",
+	  title: "Sales system development project.",
+	  description: "Composite application consists of customer relationship management (CRM) module, sales module, adverstisement content management module and integration module.",
   }
   responsibilities: 
    - "participation in high level components design"
    - "core and business logic components implementation"
-   - performance improvement and code profiling
+   - "performance improvement and code profiling"
    - "participation in development and testing process improvement"
    - "participation in business requirements adaptation"
    - "code review and devs mentoring"
  -
   dates: "02/2006 – 04/2010"
   company : "Trofimuk Institute of petroleum geology and geophysics RAS SB"
+  company_description: "research institute"
   company_url: "http://www.ipgg.nsc.ru" 
   position: "Software Development Engineer"
   project: { 
 	  title: "SharePoint Server 2003, 2007, 2010 as a platform",
   }
   achievements: 
-   - "deploying SharePoint Portal Server 2003 as portal for an internal projects and as external web site"
-   - "performing migration to SharePoint Server 2007 (+carried out about ops activities)"
-   - "performing visual re-design of the corporative web site (SharePoint 2007) in accordance with corporative standards"
-   - "developing webpart which allows organization`s employees to update their personal information in HR department`s knowlege base"
-   - "designing and developing corporative social network web application using ASP.NET MVC"
-   - "developing solution for SharePoint Server that performs total visual redesign of the SharePoint Server in runtime"
-   - "developing solution for SharePoint Server that allows posting comments and file attachments to SharePoint publishing pages"
-   - "developing solution for SharePoint Server to support publicating of an scientific articles"
-   - "developing a enterprise phonebook solution upon SharePoint"
+   - "deployed SharePoint Portal Server 2003 as portal for an internal projects and as external web site"
+   - "performed a migration to SharePoint Server 2007 (+carried out about ops activities)"
+   - "performed a visual re-design of the corporative web site (SharePoint 2007 and 2010) in accordance with corporative standards"
+   - "developed a webpart which allows organization`s employees to update their personal information in HR department`s knowlege base"
+   - "designed and developed a corporative social network web application using ASP.NET MVC"
+   - "developed a solution for SharePoint Server 2010 that performs total visual redesign of the SharePoint Server 2010 in runtime"
+   - "developed a solution for SharePoint Server 2010 that allows posting comments and file attachments to SharePoint Server 2010 publishing pages"
+   - "developed a solution for SharePoint Server 2010 to support publishing of scientific articles"
+   - "developed an enterprise phonebook solution based on SharePoint Server 2010"
   main_keywords: "master page, content page, publishing page, custom fields, content type, web part, user control, web server control, feature receiver, item event receiver"
 
 education: { dates: "2001 – 2007", university: "Novosibirsk State Technical University. Master of Applied Mathematics and Computer Science" }
