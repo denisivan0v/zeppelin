@@ -39,7 +39,7 @@ work_experience:
   company : "NuClear River"
   company_description: "open source project"
   company_url: "https://github.com/2gis/nuclear-river/" 
-  position: "Maintainer and Contributer"
+  position: "Maintainer and Contributor"
   project: { 
     title: "Customizable platform to build Read Models in sense of CQRS",
     description: "Reference implementation is here: <a href='https://github.com/2gis/nuclear-river-customer-intelligence' target='_blank'>https://github.com/2gis/nuclear-river-customer-intelligence</a>. It's an application for searching potential customers. It's running internally at 2GIS."
@@ -73,8 +73,8 @@ work_experience:
   position: "Head of software development group"
   project: { 
     title: "Sales system development project.",
-    description: "Composite application consists of customer relationship management (CRM) module, sales module, adverstisement content management module and integration module.<br/>The application is used by 2GIS's sales persons (~1000-1200) in Russia, Cyprus, Czech Republic, United Arab Emirates, Chile, Ukraine, Kazakhstan and Kyrgyzstan.<br/>The application was build from the scratch. Many libraries we've built for it now at <a href='http://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a> and some of them are opensourced.",
-    principles: "Domain-Driven Design is heavly used in this project to solve complex business tasks without building complex and over-engineered architecture",
+    description: "Composite application consists of customer relationship management (CRM) module, sales module, adverstisement content management module and integration module.<br/>The application is used by 2GIS's sales persons (~1000-1200) in Russia, Cyprus, Czech Republic, United Arab Emirates, Chile, Ukraine, Kazakhstan and Kyrgyzstan.<br/>The application was built from the scratch. Many libraries we've built for it now at <a href='http://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a> and some of them are opensourced.",
+    principles: "Domain-Driven Design is heavily used in this project to solve complex business tasks without building complex and over-engineered architecture",
     technilogies_and_dependencies: "WCF, ASP.NET MVC, SQL Server, EF, Unity (DI), Quartz.NET,  ElasticSearch, Service Bus for Windows Server, ExtJS, Javascript"
   }
   responsibilities: 
@@ -101,7 +101,7 @@ work_experience:
   position: "Senior Software Development Engineer"
   project: { 
 	  title: "Sales system development project.",
-	  description: "Composite application consists of customer relationship management (CRM) module, sales module, adverstisement content management module and integration module.",
+	  description: "Composite application consists of customer relationship management (CRM) module, sales module, advertisements content management module and integration module.",
   }
   responsibilities: 
    - "participation in high level components design"
@@ -123,7 +123,7 @@ work_experience:
    - "deployed SharePoint Portal Server 2003 as portal for an internal projects and as external web site"
    - "performed a migration to SharePoint Server 2007 (+carried out about ops activities)"
    - "performed a visual re-design of the corporative web site (SharePoint 2007 and 2010) in accordance with corporative standards"
-   - "developed a webpart which allows organization`s employees to update their personal information in HR department`s knowlege base"
+   - "developed a webpart which allows organization`s employees to update their personal information in HR department`s knowledge base"
    - "designed and developed a corporative social network web application using ASP.NET MVC"
    - "developed a solution for SharePoint Server 2010 that performs total visual redesign of the SharePoint Server 2010 in runtime"
    - "developed a solution for SharePoint Server 2010 that allows posting comments and file attachments to SharePoint Server 2010 publishing pages"
