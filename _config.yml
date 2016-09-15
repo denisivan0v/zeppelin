@@ -32,7 +32,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/about/", text: "About me"}
+ - {permalink: "/about/", text: "About"}
 bottomNavigationLinks:
  - {link: "https://github.com/denisivan0v/feedback/issues/new", text: "Ask me a question"}
 rightNavigationButtons:
