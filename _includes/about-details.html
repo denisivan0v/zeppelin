@@ -9,7 +9,7 @@
                     <p>
                         {{ site.data.about.cell }}
                         <br>
-                        <a href="https://github.com/{{ site.data.about.github_account }}">https://github.com/{{ site.data.about.github_account }}</a>
+                        <a href="https://github.com/{{ site.data.about.github_account }}" target="_blank">https://github.com/{{ site.data.about.github_account }}</a>
                     </p>
                 </div>
                 <div class="col-md-offset-3 col-md-3 col-xs-8">
@@ -30,7 +30,7 @@
                     <div class="about-experience-header">
                         <div class="company">
                             <span class="caption">{{ experience.dates }}:</span>
-                            <span class="description"><a href="{{ experience.company_url }}">{{ experience.company }}</a> ({{ experience.company_description }}), {{ experience.position }}</span>
+                            <span class="description"><a href="{{ experience.company_url }}" target="_blank">{{ experience.company }}</a> ({{ experience.company_description }}), {{ experience.position }}</span>
                         </div>
                     </div>
                     {% if experience.project %}
@@ -84,7 +84,7 @@
                     <h4>Certifications</h4>
                     <ul>
                     {% for certification in site.data.about.certifications %}
-                        <li><a href="{{ certification.link }}">{{ certification.text }}</a></li>
+                        <li><a href="{{ certification.link }}" target="_blank">{{ certification.text }}</a></li>
                     {% endfor %}
                     </ul>
                     <div class="row about-details">
@@ -93,7 +93,7 @@
                         {% assign colWidth = 12 | divided_by: forloop.length %}
                         <div class="col-md-{{ colWidth }} col-xs-6">  
                             <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                                <a href="{{ certification.link }}">
+                                <a href="{{ certification.link }}" target="_blank">
                                     <img src="{{ site.baseurl }}/img/about-section/{{ certification.image }}" width="128" alt="{{ about.title }}">
                                 </a>
                             </div>
