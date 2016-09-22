@@ -163,11 +163,13 @@ community_activities:
   description: "developers conference"
   url: "http://codefest.ru/" 
   position: "Backend track maintainer"
-  responsibilities:
-   - "Define goals of Backend track (on year-to-year basis)"
-   - "Find speakers and make arrangements"
-   - "Work on talks and presentations to help speakers fit the audience of CodeFest"
-   - "Take care about on-site experience of speakers"
+  project:
+    responsibilities:
+     - "Define goals of Backend track (on year-to-year basis)"
+     - "Find speakers and make arrangements"
+     - "Work on talks and presentations to help speakers fit the audience of CodeFest"
+     - "Take care about on-site experience of speakers"
+    description: "During the period worked with <a href='http://2015.codefest.ru/lecture/1029' target='_blank'>Dino Esposito</a> (JetBrains), <a href='http://2014.codefest.ru/lecture/822' target='_blank'>Christopher Bennage</a> (Microsoft), <a href='http://2014.codefest.ru/lecture/862' target='_blank'>Michael Yarichuk</a> (Hibernating Rhinos), <a href='http://2014.codefest.ru/lecture/842' target='_blank'>Sergey Shkredov</a> (JetBrains) and many other speakers."
 
 education: { dates: "2001 – 2007", university: "Novosibirsk State Technical University. Master of Applied Mathematics and Computer Science" }
 

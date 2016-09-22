@@ -113,22 +113,20 @@
                     </div>
                     {% if activity.project %}
                     <p>
+                        {% if activity.project.title %}
                         <div class="h5">{{ activity.project.title }}</div>
-                        {% if activity.project.description %}
-                        <p>
-                        {{ activity.project.description }}
-                        </p>
                         {% endif %}
-                    </p>
-                    {% endif %}
-                    {% if activity.responsibilities %}
-                    <p>
+                        {% if activity.project.responsibilities %}
                         My responsibilities:
                         <ul>
-                        {% for responsibility in activity.responsibilities %}
+                        {% for responsibility in activity.project.responsibilities %}
                             <li>{{ responsibility }}</li>
                         {% endfor %}
                         </ul>
+                        {% if activity.project.description %}
+                        <p>{{ activity.project.description }}</p>
+                        {% endif %}
+                    {% endif %}
                     </p>
                     {% endif %}
                     {% endfor %}
