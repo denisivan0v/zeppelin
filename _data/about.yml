@@ -7,64 +7,6 @@ github_account: "denisivan0v"
 objective: "To inform possible employers and other interested parties about my skills and experience in certain areas as well as about my willingness to consider wide range of job offers and inquiries."
 
 work_experience:
- - 
-  dates: "05/2016"
-  company : "Microsoft DevCon, Moscow"
-  company_description: "developers conference"
-  company_url: "https://channel9.msdn.com/Events/DevCon/DevCon-2016/Simple-and-scalable-backend" 
-  position: "Speaker, in Russian"
-  project: { 
-    title: "Topic: Building simple and scalable backends"
-  }
- - 
-  dates: "03/2016"
-  company : "CodeFest, Novosibirsk"
-  company_description: "developers conference"
-  company_url: "http://2016.codefest.ru/lecture/1098" 
-  position: "Speaker, in Russian"
-  project: { 
-    title: "Topic: Building Read Models using event streams"
-  }
- - 
-  dates: "03/2016"
-  company : "CEE Community Open Days 2016, Prague"
-  company_description: "conference"
-  company_url: "https://channel9.msdn.com/Blogs/MVP-VisualStudio-Dev/Building-Read-Models-using-event-streams" 
-  position: "Speaker, in English"
-  project: { 
-    title: "Topic: Building Read Models using event streams"
-  }
- - 
-  dates: "11/2015 — Current"
-  company : "NuClear River"
-  company_description: "open source project"
-  company_url: "https://github.com/2gis/nuclear-river/" 
-  position: "Maintainer and Contributor"
-  project: { 
-    title: "Customizable platform to build Read Models in sense of CQRS",
-    description: "Reference implementation is here: <a href='https://github.com/2gis/nuclear-river-customer-intelligence' target='_blank'>https://github.com/2gis/nuclear-river-customer-intelligence</a>. It's an application for searching potential customers. It's running internally at 2GIS."
-  }
- - 
-  dates: "03/2015 — Current"
-  company : "CodeFest Conference App for Windows"
-  company_description: "open source project"
-  company_url: "https://github.com/denisivan0v/codefest-win-app" 
-  position: "Author and Maintainer"
- - 
-  dates: "01/2015 — Current"
-  company : "NuClear Aggregates Layer"
-  company_description: "open source project"
-  company_url: "https://github.com/2gis/nuclear-aggregates-layer/" 
-  position: "Author and Maintainer"
-  project: { 
-    title: "Core libraries with separate read and write stacks implementation and aggregate (in DDD style) services abstractions"
-  }
- - 
-  dates: "08/2013 — Current"
-  company : "CodeFest"
-  company_description: "developers conference"
-  company_url: "http://codefest.ru/" 
-  position: "Backend track maintainer"
  -
   dates: "01/2012 — Current"
   company : "2GIS"
@@ -72,20 +14,20 @@ work_experience:
   company_url: "http://2gis.ru/" 
   position: "Head of software development group"
   project: { 
-    title: "Sales system development project.",
-    description: "Composite application consists of customer relationship management (CRM) module, sales module, adverstisement content management module and integration module.<br/>The application is used by 2GIS's sales persons (~1000-1200) in Russia, Cyprus, Czech Republic, United Arab Emirates, Chile, Ukraine, Kazakhstan and Kyrgyzstan.<br/>The application was built from the scratch. Many libraries we've built for it now at <a href='http://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a> and some of them are opensourced.",
-    principles: "Domain-Driven Design is heavily used in this project to solve complex business tasks without building complex and over-engineered architecture",
-    technilogies_and_dependencies: "WCF, ASP.NET MVC, SQL Server, EF, Unity (DI), Quartz.NET,  ElasticSearch, Service Bus for Windows Server, ExtJS, Javascript"
+    title: "ERM development project",
+    description: "ERM is a composite application consists of a customer relationship management (CRM) module, a sales module, an adverstisement content management module and an integration module.<br/>The application is used by 2GIS's sales persons (~1000-1200) in Russia, Cyprus, Czech Republic, United Arab Emirates, Chile, Ukraine, Kazakhstan and Kyrgyzstan.<br/>The application was built from scratch. Many libraries we've built for it are now available at <a href='http://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a> and some of them are opensourced.",
+    principles: "Domain-Driven Design is heavily used in this project to solve complex business tasks without building complex and over-engineered architecture.",
+    technilogies_and_dependencies: "WCF, ASP.NET MVC, SQL Server, Entity Framework, Unity (DI), Quartz.NET,  ElasticSearch, Service Bus for Windows Server, ExtJS, Javascript"
   }
   responsibilities: 
    - "application architecture development"
    - "components design"
-   - "critical components implementation"
+   - "implementation of critical components"
    - "performance improvement"
    - "development team leadership"
    - "design and code review"
    - "CI process coordination"
-   - "business requirements verification"
+   - "verification of business requirements"
    - "release planning"
   achievements:
    - "engineered application topology as web app and number of WCF services with their own responsibilities"
@@ -100,8 +42,8 @@ work_experience:
   company_url: "http://2gis.ru/" 
   position: "Senior Software Development Engineer"
   project: { 
-	  title: "Sales system development project.",
-	  description: "Composite application consists of customer relationship management (CRM) module, sales module, advertisements content management module and integration module.",
+	  title: "ERM development project",
+	  description: "ERM is a composite application consists of a customer relationship management (CRM) module, a sales module, an advertisements content management module and an integration module.",
   }
   responsibilities: 
    - "participation in high level components design"
@@ -126,10 +68,106 @@ work_experience:
    - "developed a webpart which allows organization`s employees to update their personal information in HR department`s knowledge base"
    - "designed and developed a corporative social network web application using ASP.NET MVC"
    - "developed a solution for SharePoint Server 2010 that performs total visual redesign of the SharePoint Server 2010 in runtime"
-   - "developed a solution for SharePoint Server 2010 that allows posting comments and file attachments to SharePoint Server 2010 publishing pages"
+   - "developed a solution for SharePoint Server 2010 that allows to post comments and attach files on SharePoint Server 2010 publishing pages"
    - "developed a solution for SharePoint Server 2010 to support publishing of scientific articles"
    - "developed an enterprise phonebook solution based on SharePoint Server 2010"
   main_keywords: "master page, content page, publishing page, custom fields, content type, web part, user control, web server control, feature receiver, item event receiver"
+
+oss_projects:
+ - 
+  dates: "11/2015 — Current"
+  title : "NuClear River"
+  url: "https://github.com/2gis/nuclear-river/" 
+  position: "Maintainer and Contributor"
+  project: { 
+    short_description: "Customizable platform to build Read Models in sense of CQRS",
+    description: "Reference implementation is available: <a href='https://github.com/2gis/nuclear-river-customer-intelligence' target='_blank'>https://github.com/2gis/nuclear-river-customer-intelligence</a>. It's an application for searching potential customers. It is currently used internally at 2GIS."
+  }
+ - 
+  dates: "03/2015 — Current"
+  title : "CodeFest Conference App for Windows"
+  url: "https://github.com/denisivan0v/codefest-win-app" 
+  position: "Author and Maintainer"
+  project: { 
+    short_description: "Windows Phone app with simple backend based on Azure Mobile Services",
+    description: "The app is available at <a href='https://www.microsoft.com/en-us/store/p/codefest-conference/9nblgggzzj43' target='_blank'>Windows Store</a>.",
+    technilogies_and_dependencies: "ReactiveUI, Rx.NET, Entity Framework"
+  }
+ - 
+  dates: "01/2015 — Current"
+  title : "NuClear Aggregates Layer"
+  url: "https://github.com/2gis/nuclear-aggregates-layer/" 
+  position: "Author and Maintainer"
+  project: { 
+    short_description: "Core libraries with separate read and write stacks implementation and aggregate (in DDD style) services abstractions"
+  }
+
+community_activities:
+ - 
+  dates: "05/2016"
+  title : "Microsoft DevCon, Moscow"
+  description: "developers conference"
+  url: "https://channel9.msdn.com/Events/DevCon/DevCon-2016/Simple-and-scalable-backend" 
+  position: "Speaker, in Russian"
+  project: { 
+    title: "Topic: Building simple and scalable backends"
+  }
+ - 
+  dates: "03/2016"
+  title : "CodeFest, Novosibirsk"
+  description: "developers conference"
+  url: "http://2016.codefest.ru/lecture/1098" 
+  position: "Speaker, in Russian"
+  project: { 
+    title: "Topic: Building Read Models using event streams"
+  }
+ - 
+  dates: "03/2016"
+  title : "CEE Community Open Days 2016, Prague"
+  description: "conference"
+  url: "https://channel9.msdn.com/Blogs/MVP-VisualStudio-Dev/Building-Read-Models-using-event-streams" 
+  position: "Speaker, in English"
+  project: { 
+    title: "Topic: Building Read Models using event streams"
+  }
+ - 
+  dates: "06/2015"
+  title : "DevCon, Moscow"
+  description: "conference"
+  url: "http://2015.devconf.ru/ru/offers/offer/54" 
+  position: "Speaker, in Russian"
+  project: { 
+    title: "Topic: Domain-Driven Design on practice"
+  }
+ - 
+  dates: "04/2015"
+  title : "Microsoft meetup, Novosibirsk"
+  description: "local meetup"
+  url: "https://www.youtube.com/watch?v=OvfWVgBWEzo" 
+  position: "Maintainer"
+  project: { 
+    title: "Microsoft guys Seth Juarez, Alex Belotserkovskiy, Andrey Bokov and Andrey Ivashentsev gave their talks at 2GIS office in Novosibirsk"
+  }
+ - 
+  dates: "06/2014"
+  title : "DevDay, Novosibirsk"
+  description: "local meetup"
+  url: "https://www.youtube.com/watch?v=-kjzrM1tL-4" 
+  position: "Speaker, in Russian"
+  project: { 
+    title: "Topic: Distributed applications and Azure Service Bus"
+  }  
+ - 
+  dates: "08/2013 — Current"
+  title : "CodeFest"
+  description: "developers conference"
+  url: "http://codefest.ru/" 
+  position: "Backend track maintainer"
+  responsibilities:
+   - "Define goals of Backend track (on year-to-year basis)"
+   - "Find speakers and make arrangements"
+   - "Work on talks and presentations to help speakers fit the audience of CodeFest"
+   - "Take care about on-site experience of speakers"
 
 education: { dates: "2001 – 2007", university: "Novosibirsk State Technical University. Master of Applied Mathematics and Computer Science" }
 
@@ -139,4 +177,3 @@ certifications:
  - { text: "MCPD: Web Developer 4", link: "http://www.microsoft.com/learning/en/us/certification/mcpd.aspx#item-ID0EAAAAAABAAFAAAABAAAAAAABA", image: "MCPD-WebDev4-logo-BW.png" }
  - { text: "MCPD: Windows Developer 4", link: "http://www.microsoft.com/learning/en/us/certification/mcpd.aspx#item-ID0EAAAAAACAAFAAAABAAAAAAABA", image: "MCPD-WindowsDev4-logo-BW.png" }
 certification_description: "See the <a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate' target='_blank'>full list</a> of certifications and passed exams (<a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate' target='_blank'>https://mcp.microsoft.com/Anonymous/Transcript/Validate</a>)<br><br>Transcript ID: 861196<br>Access Code: DenisIvanov"
-

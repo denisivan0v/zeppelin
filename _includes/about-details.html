@@ -25,7 +25,7 @@
                 	<h4>Objective</h4>
                     <p>{{ site.data.about.objective }}</p>
 
-                    <h4>Work experience and community activities</h4>
+                    <h4>Work experience</h4>
                     {% for experience in site.data.about.work_experience %}
                     <div class="about-experience-header">
                         <div class="company">
@@ -41,9 +41,13 @@
                         {{ experience.project.description }}
                         </p>
                         {% endif %}
-                        {% if experience.project.principles && experience.project.technilogies_and_dependencies %}
+                        {% if experience.project.principles %}
                         <p>
-                            Principles: {{ experience.project.principles }}<br>
+                            Principles: {{ experience.project.principles }}
+                        </p>
+                        {% endif %}
+                        {% if experience.project.technilogies_and_dependencies %}
+                        <p>
                             Technologies and dependencies: {{ experience.project.technilogies_and_dependencies }}
                         </p>
                         {% endif %}
@@ -51,7 +55,7 @@
                     {% endif %}
                     {% if experience.responsibilities %}
                     <p>
-                        Responsible for:
+                        My responsibilities:
                         <ul>
                         {% for responsibility in experience.responsibilities %}
                             <li>{{ responsibility }}</li>
@@ -71,6 +75,61 @@
                     {% endif %}
                     {% if experience.main_keywords %}
                     <p>Main keywords: {{ experience.main_keywords }}</p>
+                    {% endif %}
+                    {% endfor %}
+
+                    <h4>Open source projects</h4>
+                    {% for oss_project in site.data.about.oss_projects %}
+                    <div class="about-experience-header">
+                        <div class="company">
+                            <span class="caption">{{ oss_project.dates }}:</span>
+                            <span class="description"><a href="{{ oss_project.url }}" target="_blank">{{ oss_project.title }}</a>, {{ oss_project.position }}</span>
+                        </div>
+                    </div>
+                    {% if oss_project.project %}
+                    <p>
+                        <div class="h5">{{ oss_project.project.short_description }}</div>
+                        {% if oss_project.project.description %}
+                        <p>
+                        {{ oss_project.project.description }}
+                        </p>
+                        {% endif %}
+                        {% if oss_project.project.technilogies_and_dependencies %}
+                        <p>
+                            Technologies and dependencies: {{ oss_project.project.technilogies_and_dependencies }}
+                        </p>
+                        {% endif %}
+                    </p>
+                    {% endif %}
+                    {% endfor %}
+
+                    <h4>Community activities</h4>
+                    {% for activity in site.data.about.community_activities %}
+                    <div class="about-experience-header">
+                        <div class="company">
+                            <span class="caption">{{ activity.dates }}:</span>
+                            <span class="description"><a href="{{ activity.url }}" target="_blank">{{ activity.title }}</a> ({{ activity.description }}), {{ activity.position }}</span>
+                        </div>
+                    </div>
+                    {% if activity.project %}
+                    <p>
+                        <div class="h5">{{ activity.project.title }}</div>
+                        {% if activity.project.description %}
+                        <p>
+                        {{ activity.project.description }}
+                        </p>
+                        {% endif %}
+                    </p>
+                    {% endif %}
+                    {% if activity.responsibilities %}
+                    <p>
+                        My responsibilities:
+                        <ul>
+                        {% for responsibility in activity.responsibilities %}
+                            <li>{{ responsibility }}</li>
+                        {% endfor %}
+                        </ul>
+                    </p>
                     {% endif %}
                     {% endfor %}
 
