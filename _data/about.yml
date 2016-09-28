@@ -4,7 +4,7 @@ image: "microsoft-mvp.gif"
 image_url: "https://mvp.microsoft.com/en-us/PublicProfile/5001663"
 cell: "+7-923-228-06-85?can_text=yes"
 github_account: "denisivan0v"
-objective: "To inform possible employers and other interested parties about my skills and experience in certain areas as well as about my willingness to consider wide range of job offers and inquiries."
+objective: "To inform possible employers and other interested parties about my skills and experience in certain areas as well as about my willingness to consider job offers on Senior Software Development Engineer or similar position."
 
 work_experience:
  -
@@ -14,8 +14,8 @@ work_experience:
   company_url: "http://2gis.ru/" 
   position: "Head of software development group"
   project: { 
-    title: "ERM development project",
-    description: "ERM is a composite application consists of a customer relationship management (CRM) module, a sales module, an adverstisement content management module and an integration module.<br/>The application is used by 2GIS's sales persons (~1000-1200) in Russia, Cyprus, Czech Republic, United Arab Emirates, Chile, Ukraine, Kazakhstan and Kyrgyzstan.<br/>The application was built from scratch. Many libraries we've built for it are now available at <a href='http://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a> and some of them are opensourced.",
+    title: "Sales system development project",
+    description: "Сomposite application that consists of a customer relationship management (CRM) module, a sales module, an adverstisement content management module and an integration module.<br/>The application is used by 2GIS's sales persons (~1000-1200) in Russia, Cyprus, Czech Republic, United Arab Emirates, Chile, Ukraine, Kazakhstan and Kyrgyzstan.<br/>The application was built from scratch. Many libraries we've built for it are now available at <a href='http://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a> and some of them has been opensourced.",
     principles: "Domain-Driven Design is heavily used in this project to solve complex business tasks without building complex and over-engineered architecture.",
     technilogies_and_dependencies: "WCF, ASP.NET MVC, SQL Server, Entity Framework, Unity (DI), Quartz.NET,  ElasticSearch, Service Bus for Windows Server, ExtJS, Javascript"
   }
@@ -42,8 +42,8 @@ work_experience:
   company_url: "http://2gis.ru/" 
   position: "Senior Software Development Engineer"
   project: { 
-	  title: "ERM development project",
-	  description: "ERM is a composite application consists of a customer relationship management (CRM) module, a sales module, an advertisements content management module and an integration module.",
+	  title: "Sales system development project",
+	  description: "Composite application that consists of a customer relationship management (CRM) module, a sales module, an advertisements content management module and an integration module.",
   }
   responsibilities: 
    - "participation in high level components design"
