@@ -15,7 +15,7 @@ work_experience:
   position: "Head of software development group"
   project: { 
     title: "Sales system development project",
-    description: "The main goal of the project is to provide a toolset to make salespersons at 2GIS more effective.<br/>To achieve this goal as development team we've created a composite application that consists of a customer relationship management (CRM) module, a sales module, an advertisement content management module and an integration module. The application was built from scratch.<br/>Now the application is used by ~1000-1200 salespersons in Russia, Cyprus, Czech Republic, United Arab Emirates, Chile, Ukraine, Kazakhstan and Kyrgyzstan.<br/> Many libraries we've built for it are now available at <a href='http://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a> and some of them has been opensourced.",
+    description: "Development team size: ~5 engineers, varies over time.<br/>The main goal of the project is to provide a toolset to make salespersons at 2GIS more effective.<br/>To achieve this goal as development team we've created a composite application that consists of a customer relationship management (CRM) module, a sales module, an advertisement content management module and an integration module. The application was built from scratch.<br/>Now the application is used by ~1000-1200 salespersons in Russia, Cyprus, Czech Republic, United Arab Emirates, Chile, Ukraine, Kazakhstan and Kyrgyzstan.<br/> Many libraries we've built for it are now available at <a href='http://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a> and some of them have been opensourced.",
     principles: "Domain-Driven Design is heavily used in this project to solve complex business tasks without building complex and over-engineered architecture.",
     technilogies_and_dependencies: "WCF, ASP.NET MVC, SQL Server, Entity Framework, Unity (DI), Quartz.NET,  ElasticSearch, Service Bus for Windows Server, ExtJS, Javascript"
   }
@@ -30,11 +30,11 @@ work_experience:
    - "verification of business requirements"
    - "release planning"
   achievements:
-   - "engineered application topology as web app and number of WCF services with their own responsibilities"
+   - "engineered application topology as a web app and number of WCF services with their own responsibilities"
    - "implemented ability to run the same binaries in different operation modes - different business logic for different countries"
    - "implemented ability to store different business entities using the same data model" 
    - "added support for business case implementation using existing and newly created domain services that hold their own business logic invariants, now it allows to read code and understand business requirements easily"
-   - "created real-time integration service relying on domain events (using <a href='https://github.com/2gis/nuclear-river/' target='_blank'>NuClear River</a> libraries)"
+   - "created real-time service relying on domain events (using <a href='https://github.com/2gis/nuclear-river/' target='_blank'>NuClear River</a> libraries) to integrate the sales system with an advanced search application"
  -
   dates: "05/2010 — 12/2011"
   company : "2GIS"
