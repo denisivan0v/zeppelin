@@ -84,6 +84,14 @@ oss_projects:
     description: "Reference implementation is available: <a href='https://github.com/2gis/nuclear-river-customer-intelligence' target='_blank'>https://github.com/2gis/nuclear-river-customer-intelligence</a>. It's an application for searching potential customers. It is currently used internally at 2GIS."
   }
  - 
+  dates: "05/2015 — Current"
+  title : "Personal site and blog"
+  url: "https://github.com/denisivan0v/zeppelin" 
+  position: "Author"
+  project: { 
+    short_description: "This site project built with <a href='https://github.com/gdg-x/zeppelin' target='_blank'>Project Zeppelin</a> on top of <a href='http://jekyllrb.com/' target='_blank'>Jekyll</a>"
+  }
+ - 
   dates: "03/2015 — Current"
   title : "CodeFest Conference App for Windows"
   url: "https://github.com/denisivan0v/codefest-win-app" 
