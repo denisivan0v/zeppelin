@@ -8,176 +8,103 @@ objective: "To inform possible employers and other interested parties about my s
 
 work_experience:
  -
-  dates: "01/2012 — Current"
+  dates: "01/2010 — Current"
   company : "2GIS"
-  company_description: "local search company"
+  company_description: "local search company, Novosibirsk, Russia"
   company_url: "http://2gis.ru/" 
   position: "Head of software development group"
-  project: { 
-    title: "Sales system development project",
-    description: "Development team size: ~5 engineers, varies over time.<br/>The main goal of the project is to provide a toolset to make salespersons at 2GIS more effective.<br/>To achieve this goal as development team we've created a composite application that consists of a customer relationship management (CRM) module, a sales module, an advertisement content management module and an integration module. The application was built from scratch.<br/>Now the application is used by ~1000-1200 salespersons in Russia, Cyprus, Czech Republic, United Arab Emirates, Chile, Ukraine, Kazakhstan and Kyrgyzstan.<br/> Many libraries we've built for it are now available at <a href='http://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a> and some of them have been opensourced.",
-    principles: "Domain-Driven Design is heavily used in this project to solve complex business tasks without building complex and over-engineered architecture.",
-    technilogies_and_dependencies: "WCF, ASP.NET MVC, SQL Server, Entity Framework, Unity (DI), Quartz.NET,  ElasticSearch, Service Bus for Windows Server, ExtJS, Javascript"
-  }
-  responsibilities: 
-   - "application architecture development"
-   - "components design"
-   - "implementation of critical components"
-   - "performance improvement"
-   - "development team leadership"
-   - "design and code review"
-   - "CI process coordination"
-   - "verification of business requirements"
-   - "release planning"
+  description: "Have been leading a development team of 5-8 engineers and responsible for an architecture, design of components, implementation of critical modules and performance improvement."
   achievements:
-   - "engineered application topology as a web app and number of WCF services with their own responsibilities"
-   - "implemented ability to run the same binaries in different operation modes - different business logic for different countries"
-   - "implemented ability to store different business entities using the same data model" 
-   - "added support for business case implementation using existing and newly created domain services that hold their own business logic invariants, now it allows to read code and understand business requirements easily"
-   - "created real-time service relying on domain events (using <a href='https://github.com/2gis/nuclear-river/' target='_blank'>NuClear River</a> libraries) to integrate the sales system with an advanced search application"
- -
-  dates: "05/2010 — 12/2011"
-  company : "2GIS"
-  company_description: "local search company"
-  company_url: "http://2gis.ru/" 
-  position: "Senior Software Development Engineer"
-  project: { 
-	  title: "Sales system development project",
-	  description: "The main goal of the project is to provide a toolset to make salespersons at 2GIS more effective.<br/>To achieve this goal as development team we've created a composite application that consists of a customer relationship management (CRM) module, a sales module, an advertisement content management module and an integration module.",
-  }
-  responsibilities: 
-   - "participation in high level components design"
-   - "core and business logic components implementation"
-   - "performance improvement and code profiling"
-   - "participation in development and testing process improvement"
-   - "participation in business requirements adaptation"
-   - "code review and devs mentoring"
+   - "With my team built a unified sales platform for 2GIS from scratch that now works in 8 regions across the globe as SaaS."
+   - "Redesigned development and testing processes to decrease a duration of releasing cycle from 1 month to 1 day."
+   - "Rewrote a huge C#/JS codebase (~130 VS projects) to split it into separated libraries, currently available at <a href='https://www.nuget.org/packages?q=2gis' target='_blank'>nuget.org</a>."
+   - "Rearchitected core domain services of the 2GIS’ main sales platform applying Domain-Driven Design (DDD) practices."
+   - "Launched a <a href='https://github.com/2gis/nuclear-river/' target='_blank'>NuClear River</a> .NET OSS project to create a platform for fast Read Model applications construction. Now it’s actively
+used in many internal applications."
+   - "Introduced a logging platform based on ELK stack to collect and analyze telemetry data comes from backend services."
+   - "Implemented a service for real-time event-based integration of the sales platform with an advanced search application."
+   - "Built a platform to bring video advertising to 2GIS’ apps with ASP.NET Core that runs on Linux on Kubernetes clusters."
+   - "Using a microservices approach designed a centralized advertising management system for 2GIS that has been built with .NET Core, Scala and React, all runs on Kubernetes. As a part of the project developed and maintained <a href='https://github.com/2gis/nuclear-vstore' target='_blank'>NuClear VStore</a> OSS services that provide versioned data storage based on Ceph, Amazon S3 API, Apache Kafka, NGINX and Redis."
  -
   dates: "02/2006 – 04/2010"
-  company : "Trofimuk Institute of petroleum geology and geophysics RAS SB"
-  company_description: "research institute"
+  company : "Trofimuk Institute of petroleum geology and geophysics, Russian Academy of Science, Siberian Branch"
+  company_description: "research institute, Novosibirsk, Russia"
   company_url: "http://www.ipgg.nsc.ru" 
   position: "Software Development Engineer"
   project: { 
 	  title: "SharePoint Server 2003, 2007, 2010 as a platform",
   }
   achievements: 
-   - "deployed SharePoint Portal Server 2003 as portal for an internal projects and as external web site"
-   - "performed a migration to SharePoint Server 2007 (+carried out about ops activities)"
-   - "performed a visual re-design of the corporative web site (SharePoint 2007 and 2010) in accordance with corporative standards"
-   - "developed a webpart which allows organization`s employees to update their personal information in HR department`s knowledge base"
-   - "designed and developed a corporative social network web application using ASP.NET MVC"
-   - "developed a solution for SharePoint Server 2010 that performs total visual redesign of the SharePoint Server 2010 in runtime"
-   - "developed a solution for SharePoint Server 2010 that allows to post comments and attach files on SharePoint Server 2010 publishing pages"
-   - "developed a solution for SharePoint Server 2010 to support publishing of scientific articles"
-   - "developed an enterprise phonebook solution based on SharePoint Server 2010"
-  main_keywords: "master page, content page, publishing page, custom fields, content type, web part, user control, web server control, feature receiver, item event receiver"
+   - "Performed a visual re-design of the corporative web site based on SharePoint in accordance with corporative standards."
+   - "Developed a number of solutions on top of SharePoint 2010: a webpart for employees to update their personal data in HR
+system, an enterprise phonebook application, feature for posts commenting and files attaching to publishing pages."
+   - "Designed and developed a corporative social network web application using ASP.NET MVC 1.0."
 
 oss_projects:
+ - 
+  dates: "07/2017"
+  title : "Confluent's Apache Kafka .NET client"
+  url: "https://github.com/confluentinc/confluent-kafka-dotnet/pull/235" 
+  position: "Contributor"
+  project: {     
+    description: "contribution for adding new API"
+  }
+ - 
+  dates: "09/2016"
+  title : "AWS SDK for .NET"
+  url: "https://github.com/aws/aws-sdk-net/pull/456" 
+  position: "Contributor"
+  project: {     
+    description: "fix the issue in S3 client configuration"
+  }
+ - 
+  dates: "09/2016 — Current"
+  title : "NuClear VStore"
+  url: "https://github.com/2gis/nuclear-vstore/" 
+  position: "Maintainer and Contributor"
+  project: {     
+    description: "advertising data storage with versioning"
+  } 
  - 
   dates: "11/2015 — Current"
   title : "NuClear River"
   url: "https://github.com/2gis/nuclear-river/" 
   position: "Maintainer and Contributor"
-  project: { 
-    short_description: "Customizable platform to build Read Models in sense of CQRS",
-    description: "Reference implementation is available: <a href='https://github.com/2gis/nuclear-river-customer-intelligence' target='_blank'>https://github.com/2gis/nuclear-river-customer-intelligence</a>. It's an application for searching potential customers. It is currently used internally at 2GIS."
+  project: {     
+    description: "customizable platform for building CQRS Read Models"
   }
  - 
-  dates: "05/2015 — Current"
-  title : "Personal site and blog"
-  url: "https://github.com/denisivan0v/zeppelin" 
-  position: "Author"
-  project: { 
-    short_description: "This site project built with <a href='https://github.com/gdg-x/zeppelin' target='_blank'>Project Zeppelin</a> on top of <a href='http://jekyllrb.com/' target='_blank'>Jekyll</a>"
-  }
- - 
-  dates: "03/2015 — Current"
+  dates: "03/2015"
   title : "CodeFest Conference App for Windows"
   url: "https://github.com/denisivan0v/codefest-win-app" 
-  position: "Author and Maintainer"
+  position: "Author"
   project: { 
-    short_description: "Windows Phone app with simple backend based on Azure Mobile Services",
-    description: "The app is available at <a href='https://www.microsoft.com/en-us/store/p/codefest-conference/9nblgggzzj43' target='_blank'>Windows Store</a>.",
-    technilogies_and_dependencies: "ReactiveUI, Rx.NET, Entity Framework"
+    description: "built with ReactiveUI, Rx.NET, Entity Framework and Azure Mobile services"    
   }
  - 
   dates: "01/2015 — Current"
-  title : "NuClear Aggregates Layer"
+  title : "Core data access libraries"
   url: "https://github.com/2gis/nuclear-aggregates-layer/" 
   position: "Author and Maintainer"
   project: { 
-    short_description: "Core libraries with separate read and write stacks implementation and aggregate (in DDD style) services abstractions"
+    description: "with separate implementation of read and write stacks on top of Entity Framework and LINQ to DB"
   }
 
 community_activities:
  - 
-  dates: "05/2016"
-  title : "Microsoft DevCon, Moscow"
-  description: "developers conference"
-  url: "https://channel9.msdn.com/Events/DevCon/DevCon-2016/Simple-and-scalable-backend" 
-  position: "Speaker, in Russian"
-  project: { 
-    title: "Topic: Building simple and scalable backends"
-  }
- - 
-  dates: "03/2016"
-  title : "CodeFest, Novosibirsk"
-  description: "developers conference"
-  url: "http://2016.codefest.ru/lecture/1098" 
-  position: "Speaker, in Russian"
-  project: { 
-    title: "Topic: Building Read Models using event streams"
-  }
- - 
-  dates: "03/2016"
-  title : "CEE Community Open Days 2016, Prague"
-  description: "conference"
-  url: "https://channel9.msdn.com/Blogs/MVP-VisualStudio-Dev/Building-Read-Models-using-event-streams" 
-  position: "Speaker, in English"
-  project: { 
-    title: "Topic: Building Read Models using event streams"
-  }
- - 
-  dates: "06/2015"
-  title : "DevConf, Moscow"
-  description: "conference"
-  url: "http://2015.devconf.ru/ru/offers/offer/54" 
-  position: "Speaker, in Russian"
-  project: { 
-    title: "Topic: Domain-Driven Design on practice"
-  }
- - 
-  dates: "04/2015"
-  title : "Microsoft meetup, Novosibirsk"
-  description: "local meetup"
-  url: "https://www.youtube.com/watch?v=OvfWVgBWEzo" 
-  position: "Maintainer"
-  project: { 
-    title: "Microsoft guys Seth Juarez, Alex Belotserkovskiy, Andrey Bokov and Andrey Ivashentsev gave their talks at 2GIS office in Novosibirsk"
-  }
- - 
-  dates: "06/2014"
-  title : "DevDay, Novosibirsk"
-  description: "local meetup"
-  url: "https://www.youtube.com/watch?v=-kjzrM1tL-4" 
-  position: "Speaker, in Russian"
-  project: { 
-    title: "Topic: Distributed applications and Azure Service Bus"
-  }  
- - 
   dates: "08/2013 — Current"
   title : "CodeFest"
-  description: "developers conference"
+  description: "developers conference, Novosibirsk, Russia"
   url: "http://codefest.ru/" 
   position: "Backend track maintainer"
   project:
-    responsibilities:
-     - "Define goals of Backend track (on year-to-year basis)"
-     - "Find speakers and make arrangements"
-     - "Work on talks and presentations to help speakers fit the audience of CodeFest"
-     - "Take care about on-site experience of speakers"
-    description: "During the period worked with <a href='http://2015.codefest.ru/lecture/1029' target='_blank'>Dino Esposito</a>, <a href='http://2014.codefest.ru/lecture/822' target='_blank'>Christopher Bennage</a> (Microsoft), <a href='http://2014.codefest.ru/lecture/862' target='_blank'>Michael Yarichuk</a> (Hibernating Rhinos), <a href='http://2014.codefest.ru/lecture/842' target='_blank'>Sergey Shkredov</a> (JetBrains) and many other speakers."
+    description: "Have been responsible for defining goals of Backend track (on year-to-year basis), finding speakers, working on talks and
+presentations to help speakers fit the audience of CodeFest, taking care about on-site experience of speakers."
+ - 
+  dates: "2015 — 2017"
+  project:
+    description: "Participated as a speaker at <a href='https://www.youtube.com/watch?v=bQv-7oyLGcs' target='_blank'>DotNext</a> (Moscow, 2017), <a href='https://www.youtube.com/watch?v=rCOKmZ8VqCU' target='_blank'>HighLoad++</a> (Moscow, 2017), <a href='https://www.youtube.com/watch?v=eWrRzOUaSBQ' target='_blank'>RIT++</a> (Moscow, 2017),
+<a href='https://www.youtube.com/watch?v=ngcigr_8oxw' target='_blank'>DotNext</a> (Saint-Petersburg, 2017), <a href='https://channel9.msdn.com/Events/DevCon/DevCon-2016/Simple-and-scalable-backend' target='_blank'>Microsoft DevCon</a> (Moscow, 2016), <a href='https://www.youtube.com/watch?v=uyfeERk3Ta4' target='_blank'>CodeFest</a> (Novosibirsk, 2016), <a href='https://channel9.msdn.com/Blogs/MVP-VisualStudio-Dev/Building-Read-Models-using-event-streams' target='_blank'>CEE Community Open Days</a> (Prague, 2016), etc." 
 
 education: { dates: "2001 – 2007", university: "Novosibirsk State Technical University. Master of Applied Mathematics and Computer Science" }
 
